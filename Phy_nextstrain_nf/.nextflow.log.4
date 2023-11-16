@@ -1,0 +1,144 @@
+10月-30 11:46:54.907 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nextflow.nf --reference /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/CVA10/CVA10_genome.fa --referencegb /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/CVA10/CVA10_genome.gb --outdir /Users/LuJ/Yunpan/students/2022级/练惠敏/analysis/genome_results --sequences /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/data/cva10-geno.fasta --metadata /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/data/cva10-geno.tsv --root AY421767
+10月-30 11:46:54.976 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+10月-30 11:46:54.997 [main] INFO  nextflow.cli.CmdRun - Launching `nextflow.nf` [compassionate_sax] - revision: 05b183e200
+10月-30 11:46:55.011 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/nextflow.config
+10月-30 11:46:55.011 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/nextflow.config
+10月-30 11:46:55.033 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+10月-30 11:46:55.796 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/Users/LuJ/.nextflow/plugins
+10月-30 11:46:55.798 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+10月-30 11:46:55.808 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+10月-30 11:46:55.809 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+10月-30 11:46:55.813 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+10月-30 11:46:55.824 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+10月-30 11:46:55.883 [main] DEBUG nextflow.Session - Session uuid: dc7eec20-2f22-4f5d-abcc-4be887449693
+10月-30 11:46:55.883 [main] DEBUG nextflow.Session - Run name: compassionate_sax
+10月-30 11:46:55.884 [main] DEBUG nextflow.Session - Executor pool size: 16
+10月-30 11:46:56.067 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (22-12-2021 00:55 CDT)
+  System: Mac OS X 13.5.2
+  Runtime: Groovy 3.0.9 on Java HotSpot(TM) 64-Bit Server VM 17.0.7+8-LTS-224
+  Encoding: UTF-8 (UTF-8)
+  Process: 77990@LuJdeMacBook-Pro.local [127.0.0.1]
+  CPUs: 16 - Mem: 64 GB (1.5 GB) - Swap: 5 GB (1.4 GB)
+10月-30 11:46:56.082 [main] DEBUG nextflow.Session - Work-dir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work [Mac OS X]
+10月-30 11:46:56.098 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/bin
+10月-30 11:46:56.106 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+10月-30 11:46:56.116 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+10月-30 11:46:56.185 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+10月-30 11:46:56.252 [main] DEBUG nextflow.Session - Session start invoked
+10月-30 11:46:56.255 [main] DEBUG nextflow.trace.TraceFileObserver - Flow starting -- trace file: /Users/LuJ/Yunpan/students/2022级/练惠敏/analysis/genome_results/execution/trace.txt
+10月-30 11:46:56.761 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+10月-30 11:46:56.898 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:56.898 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:56.908 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+10月-30 11:46:56.918 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=50; memory=60 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+10月-30 11:46:56.936 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+10月-30 11:46:57.005 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:57.017 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:57.024 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:57.035 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:57.042 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:57.056 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:57.060 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:57.076 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:57.081 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:57.096 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:57.100 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:57.100 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:57.132 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:57.132 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:57.137 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:46:57.137 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:46:57.140 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: ancestral, traits, tree, refine, finalize, align, export, translate, colors
+10月-30 11:46:57.141 [main] DEBUG nextflow.Session - Ignite dataflow network (11)
+10月-30 11:46:57.146 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > align
+10月-30 11:46:57.147 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > tree
+10月-30 11:46:57.148 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > refine
+10月-30 11:46:57.148 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ancestral
+10月-30 11:46:57.148 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > translate
+10月-30 11:46:57.149 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > traits
+10月-30 11:46:57.149 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > colors
+10月-30 11:46:57.149 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > export
+10月-30 11:46:57.150 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > finalize
+10月-30 11:46:57.150 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+10月-30 11:46:57.150 [main] DEBUG nextflow.Session - Session await
+10月-30 11:46:57.284 [Task submitter] WARN  nextflow.executor.BashWrapperBuilder - Task runtime metrics are not reported when using macOS without a container engine
+10月-30 11:46:57.300 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:46:57.306 [Task submitter] INFO  nextflow.Session - [a6/1604cb] Submitted process > colors
+10月-30 11:46:57.328 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:46:57.328 [Task submitter] INFO  nextflow.Session - [57/31409c] Submitted process > align (1)
+10月-30 11:46:58.083 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: colors; status: COMPLETED; exit: 0; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/a6/1604cbf80a3c0f4a21dba091d78b0c]
+10月-30 11:46:58.101 [Task monitor] DEBUG n.util.BlockingThreadExecutorFactory - Thread pool name=FileTransfer; maxThreads=48; maxQueueSize=144; keepAlive=1m
+10月-30 11:47:24.735 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: align (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/57/31409c0901856c2141a0a1c1121f33]
+10月-30 11:47:24.744 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:47:24.744 [Task submitter] INFO  nextflow.Session - [30/8ee13e] Submitted process > tree (1)
+10月-30 11:48:39.157 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: tree (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/30/8ee13ea1340c8a1ff88b7f22fb8b77]
+10月-30 11:48:39.174 [Task submitter] WARN  nextflow.executor.BashWrapperBuilder - Task runtime metrics are not reported when using macOS without a container engine
+10月-30 11:48:39.177 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:48:39.177 [Task submitter] INFO  nextflow.Session - [70/8ed73c] Submitted process > refine (1)
+10月-30 11:51:01.414 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: refine (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/70/8ed73cb4fa4804676aa883668466dd]
+10月-30 11:51:01.420 [Task submitter] WARN  nextflow.executor.BashWrapperBuilder - Task runtime metrics are not reported when using macOS without a container engine
+10月-30 11:51:01.423 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:51:01.425 [Task submitter] INFO  nextflow.Session - [ee/d3ec79] Submitted process > ancestral (1)
+10月-30 11:51:01.436 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:51:01.436 [Task submitter] INFO  nextflow.Session - [ad/84986f] Submitted process > traits (1)
+10月-30 11:51:08.448 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 6; name: traits (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/ad/84986fa25955741b70950e022f4d5f]
+10月-30 11:51:11.479 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: ancestral (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/ee/d3ec79bf2ed5a5bc13b1115cb69df6]
+10月-30 11:51:11.493 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:51:11.494 [Task submitter] INFO  nextflow.Session - [9d/7b43a4] Submitted process > translate (1)
+10月-30 11:51:13.554 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: translate (1); status: COMPLETED; exit: 0; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/9d/7b43a468462f6d74da4bd2c3afd76a]
+10月-30 11:51:13.585 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:51:13.585 [Task submitter] INFO  nextflow.Session - [50/049f70] Submitted process > export (1)
+10月-30 11:51:14.812 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: export (1); status: COMPLETED; exit: 2; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/50/049f70434c3cc4a56463889075ceab]
+10月-30 11:51:14.833 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'export (1)'
+
+Caused by:
+  Process `export (1)` terminated with an error exit status (2)
+
+Command executed:
+
+  augur export v2           --tree tree.nwk           --metadata /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/data/cva10-geno.tsv           --node-data branch_lengths.json traits.json nt_muts.json aa_muts.json           --auspice-config /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/auspice_config.json           --colors colors.tsv           --lat-longs /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/lat_longs.tsv           --output result_accessions.json
+  
+  cp result_accessions.json result_root-sequence.json
+  
+  echo "augur export v2           --tree tree.nwk           --metadata /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/data/cva10-geno.tsv           --node-data branch_lengths.json traits.json nt_muts.json aa_muts.json           --auspice-config /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/auspice_config.json           --include-root-sequence           --colors colors.tsv           --lat-longs /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/lat_longs.tsv           --output result_accessions.json"
+
+Command exit status:
+  2
+
+Command output:
+  Validating schema of 'nt_muts.json'...
+  Validating schema of 'aa_muts.json'...
+  FATAL ERROR:
+  	Couldn't parse the JSON file /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/auspice_config.json
+  	Error message: 'Expecting ',' delimiter'
+  	Line number: '18'
+  	Column number: '5'
+  	You must correct this file in order to proceed.
+
+Command wrapper:
+  Validating schema of 'nt_muts.json'...
+  Validating schema of 'aa_muts.json'...
+  FATAL ERROR:
+  	Couldn't parse the JSON file /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/auspice_config.json
+  	Error message: 'Expecting ',' delimiter'
+  	Line number: '18'
+  	Column number: '5'
+  	You must correct this file in order to proceed.
+
+Work dir:
+  /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/50/049f70434c3cc4a56463889075ceab
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+10月-30 11:51:14.836 [main] DEBUG nextflow.Session - Session await > all process finished
+10月-30 11:51:14.836 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `export (1)` terminated with an error exit status (2)
+10月-30 11:51:14.848 [main] DEBUG nextflow.Session - Session await > all barriers passed
+10月-30 11:51:14.852 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=7; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=4m 24s; failedDuration=1.2s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+10月-30 11:51:14.852 [main] DEBUG nextflow.trace.TraceFileObserver - Flow completing -- flushing trace file
+10月-30 11:51:14.853 [main] DEBUG nextflow.trace.ReportObserver - Flow completing -- rendering html report
+10月-30 11:51:14.887 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  [{"cpuUsage":null,"process":"colors","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":1000,"min":1000,"q1":1000,"q2":1000,"q3":1000,"max":1000,"minLabel":"colors","maxLabel":"colors","q1Label":"colors","q2Label":"colors","q3Label":"colors"},"writes":null},{"cpuUsage":null,"process":"align","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":27000,"min":27000,"q1":27000,"q2":27000,"q3":27000,"max":27000,"minLabel":"align (1)","maxLabel":"align (1)","q1Label":"align (1)","q2Label":"align (1)","q3Label":"align (1)"},"writes":null},{"cpuUsage":null,"process":"tree","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":75000,"min":75000,"q1":75000,"q2":75000,"q3":75000,"max":75000,"minLabel":"tree (1)","maxLabel":"tree (1)","q1Label":"tree (1)","q2Label":"tree (1)","q3Label":"tree (1)"},"writes":null},{"cpuUsage":null,"process":"refine","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":142000,"min":142000,"q1":142000,"q2":142000,"q3":142000,"max":142000,"minLabel":"refine (1)","maxLabel":"refine (1)","q1Label":"refine (1)","q2Label":"refine (1)","q3Label":"refine (1)"},"writes":null},{"cpuUsage":null,"process":"traits","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":7000,"min":7000,"q1":7000,"q2":7000,"q3":7000,"max":7000,"minLabel":"traits (1)","maxLabel":"traits (1)","q1Label":"traits (1)","q2Label":"traits (1)","q3Label":"traits (1)"},"writes":null},{"cpuUsage":null,"process":"ancestral","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":10000,"min":10000,"q1":10000,"q2":10000,"q3":10000,"max":10000,"minLabel":"ancestral (1)","maxLabel":"ancestral (1)","q1Label":"ancestral (1)","q2Label":"ancestral (1)","q3Label":"ancestral (1)"},"writes":null},{"cpuUsage":null,"process":"translate","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":2000,"min":2000,"q1":2000,"q2":2000,"q3":2000,"max":2000,"minLabel":"translate (1)","maxLabel":"translate (1)","q1Label":"translate (1)","q2Label":"translate (1)","q3Label":"translate (1)"},"writes":null},{"cpuUsage":null,"process":"export","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":1154,"min":1154,"q1":1154,"q2":1154,"q3":1154,"max":1154,"minLabel":"export (1)","maxLabel":"export (1)","q1Label":"export (1)","q2Label":"export (1)","q3Label":"export (1)"},"writes":null}]
+10月-30 11:51:15.412 [main] DEBUG nextflow.trace.TimelineObserver - Flow completing -- rendering html timeline
+10月-30 11:51:15.651 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+10月-30 11:51:15.661 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,164 @@
+strain	gisaid_epi_isl	date	country	division	location	clade
+OP958840	?	2022-11-26	USA	?	?	XBB.1.5
+OP971202	?	2022-11-27	USA	?	?	XBB.1.5.13
+OP955488	?	2022-11-25	USA	?	?	XBB.1.5
+OP971186	?	2022-11-28	USA	?	?	XBB.1.5.13
+OP955486	?	2022-11-25	USA	?	?	XBB.1.5
+OX345943	?	2022-09-20	Switzerland	?	?	XBB.3
+OX339384	?	2022-09-09	United Kingdom	?	?	BQ.1.1
+OP523232	?	2022-09-12	USA	?	?	BA.2.3.20
+OX245426	?	2022-07-08	United Kingdom	?	?	BE.1.1
+OP333110	?	2022-08-15	USA	?	?	BH.1
+OP332458	?	2022-08-14	USA	?	?	BA.2.10.4
+OP334332	?	2022-08-16	USA	?	?	BM.1.1.1
+OP339227	?	2022-08-15	USA	?	?	BA.2.75.2
+ON895103	?	2022-06-14	USA	?	?	BA.2.75
+ON895548	?	2022-06-15	USA	?	?	BA.2.75
+ON537316	?	2022-05-03	USA	?	?	BA.2.12.1
+ON544943	?	2022-05-08	USA	?	?	BA.2
+ON629031	?	2022-05-09	USA	?	?	BA.2
+ON626380	?	2022-05-16	USA	?	?	BA.1.1
+ON627541	?	2022-05-17	Bahrain	?	?	BA.5.2
+ON627543	?	2022-05-19	Bahrain	?	?	BA.5.2
+ON396327	?	2022-04-17	USA	?	?	BA.4.1
+ON544567	?	2022-05-05	USA	?	?	BA.4.1
+ON084447	?	2022-03-12	USA	?	?	BA.2.12.1
+OV950637	?	2022-02-06	United Kingdom	?	?	XL
+OV940149	?	2022-02-05	United Kingdom	?	?	XF
+OW018845	?	2022-02-14	United Kingdom	?	?	XE
+OM990851	?	2022-02-09	France	?	?	XD
+OK016320	?	2021-07-19	USA	?	?	XB
+OU219033	?	2021-03-26	United Kingdom	?	?	XA
+LR991190	?	2020-05-06	United Kingdom	?	?	B
+OU205023	?	2021-05-05	Germany	?	?	B.1.351
+OU361297	?	2021-06-08	Germany	?	?	B.1.351
+OU221273	?	2021-05-06	Germany	?	?	B.1.1.7
+OU149858	?	2021-04-06	Germany	?	?	B.1.525
+OU517038	?	2021-07-11	Germany	?	?	C.37
+OU570677	?	2021-08-09	Germany	?	?	AY.68
+OU150047	?	2021-04-05	Germany	?	?	B.1.1.7
+OU187687	?	2021-04-25	Germany	?	?	B.1.1.7
+USA/MA-CDCBI-CRSP_M2WXUWBLS72TQFUR/2021	?	2021-08-27	USA	?	?	AY.26
+USA/MN-CDC-LC0334883/2021	?	2021-10-01	USA	?	?	AY.83
+USA/VA-CDC-LC0067096/2021	?	2021-05-27	USA	?	?	B.1.525
+USA/FL-CDC-LC0065484/2021	?	2021-05-26	USA	?	?	C.37.1
+USA/CO-CDPHE-2007261261/2020	?	2020-07-22	USA	?	?	B.1
+England/MILK-516E26/2020	?	2020-06-13	United Kingdom	?	?	B.1.1.1
+England/QEUH-AD0825/2020	?	2020-10-22	United Kingdom	?	?	B.1.177
+Iceland/3124/2020	?	2020-10-27	Iceland	?	?	B.1.177
+USA/CO-CDPHE-2003260110/2020	?	2020-03-24	USA	?	?	B.1
+Switzerland/ZH-ETHZ-450502/2021	?	2021-01-08	Switzerland	?	?	C.35
+USA/MA-MASPHL-01933/2021	?	2021-02-04	USA	?	?	B.1.2
+USA/VA-CDC-ASC210374497/2021	?	2021-09-24	USA	?	?	AY.44
+USA/CA-CDC-QDX21613057/2021	?	2021-01-31	USA	?	?	B.1.429
+England/CAMC-139B57E/2021	?	2021-03-05	United Kingdom	?	?	P.3
+USA/FL-CDC-QDX22678176/2021	?	2021-03-06	USA	?	?	B.1.2
+England/CAMC-13B81A4/2021	?	2021-03-10	United Kingdom	?	?	B.1.617.1
+Switzerland/SO-ETHZ-531441/2020	?	2020-11-08	Switzerland	?	?	B.1.160
+USA/DC-CDC-LC0331077/2021	?	2021-10-15	USA	?	?	AY.120.1
+USA/NC-CDC-STM-000073018/2021	?	2021-05-11	USA	?	?	B.1.526
+USA/NJ-CDC-LC0084532/2021	?	2021-06-22	USA	?	?	P.3
+USA/NJ-PHEL-21-12068/2021	?	2021-04-25	USA	?	?	P.1.10
+USA/CA-CDC-FG-042304/2021	?	2021-07-13	USA	?	?	B.1.621
+USA/FL-CDC-ASC210078123/2021	?	2021-08-07	USA	?	?	AY.47
+England/ALDP-1004959/2021	?	2021-01-12	United Kingdom	?	?	B.1.177
+USA/RI-CDCBI-CRSP_EVAFDCVZGQ4NYXIQ/2021	?	2021-11-02	USA	?	?	AY.103
+USA/CO-CDC-MMB10752210/2021	?	2021-09-28	USA	?	?	AY.107
+USA/WA-S5413/2021	?	2021-02-26	USA	?	?	B.1.427
+USA/TX-CDC-ASC210376640/2021	?	2021-09-23	USA	?	?	AY.25
+USA/MA-CDCBI-CRSP_NPPKJNMG7V6OAGRW/2021	?	2021-06-03	USA	?	?	P.1
+USA/CO-CDC-ASC210309969/2021	?	2021-10-04	USA	?	?	AY.103
+USA/NY-CDC-LC0344242/2021	?	2021-10-23	USA	?	?	AY.3
+USA/CA-CDC-FG-161774/2021	?	2021-11-01	USA	?	?	AY.39.1
+USA/MA-CDCBI-CRSP_MLUB7OEWDYUWSKGQ/2021	?	2021-09-15	USA	?	?	AY.122
+USA/AK-PHL10845/2021	?	2021-07-23	USA	?	?	AY.54
+USA/MA-CDCBI-CRSP_S637QBAELKOECBRG/2021	?	2021-09-16	USA	?	?	AY.25
+USA/CA-CDPH-3000131458/2021	?	2021-07-29	USA	?	?	B.1.526
+USA/MA-CDCBI-CRSP_6XNVDTWZVHP437HT/2021	?	2021-04-24	USA	?	?	C.37.1
+USA/MA-CDCBI-CRSP_6WUXOVDJ3B5G2RNQ/2021	?	2021-11-02	USA	?	?	AY.103
+USA/MA-CDCBI-CRSP_URIKNCKBF5674VF4/2021	?	2021-12-21	USA	?	?	BA.2.9
+USA/MA-CDCBI-CRSP_EFLUYAQE2ICW2C6E/2021	?	2021-04-26	USA	?	?	B.1.1.7
+USA/KS-CDC-2-4449463/2021	?	2021-05-20	USA	?	?	B.1.621
+USA/AK-PHL8565/2021	?	2021-04-30	USA	?	?	B.1.1.519
+USA/WA-UW-2181/2020	?	2020-03-25	USA	?	?	B
+USA/CA-CDC-QDX22169637/2021	?	2021-02-17	USA	?	?	B.1.311
+Switzerland/BE-ETHZ-630376/2021	?	2021-05-19	Switzerland	?	?	B.1.1.318
+USA/UT-03435/2020	?	2020-04-20	USA	?	?	A.1
+USA/AR-CDC-ASC210377904/2021	?	2021-09-26	USA	?	?	B.1.240
+USA/ID-CDC-ASC210011921/2021	?	2021-03-19	USA	?	?	B.1.429
+Scotland/QEUH-14E640D/2021	?	2021-04-09	United Kingdom	?	?	B.1.1.7
+England/MILK-74F4E4/2020	?	2020-06-30	United Kingdom	?	?	B.1.1.1
+USA/FL-CDC-LC0099490/2021	?	2021-07-15	USA	?	?	AY.54
+USA/AK-PHL8614/2021	?	2021-04-30	USA	?	?	B.1.1.519
+England/ALDP-20A77A6/2021	?	2021-10-08	United Kingdom	?	?	AY.4
+USA/NC-CDC-LC0050688/2021	?	2021-04-20	USA	?	?	B.1.526
+USA/VA-CDC-LC0051792/2021	?	2021-04-22	USA	?	?	B.1.525
+USA/AZ-CDC-LC0166866/2021	?	2021-07-22	USA	?	?	B.1.621
+England/MILK-2759487/2021	?	2021-10-13	United Kingdom	?	?	AY.6
+Scotland/QEUH-27B5322/2021	?	2021-10-18	United Kingdom	?	?	AY.4
+USA/TX-CDC-ASC210279141/2021	?	2021-09-15	USA	?	?	B
+USA/MD-MDH-0082/2020	?	2020-05-26	USA	?	?	A.3
+USA/FL-CDC-ASC210334485/2021	?	2021-09-23	USA	?	?	AY.3
+USA/NJ-CDC-ASC210001462/2021	?	2021-03-03	USA	?	?	B.1.526
+USA/IL-CDC-LC0060638/2021	?	2021-05-09	USA	?	?	B.1.617.1
+USA/AK-PHL9083/2021	?	2021-05-20	USA	?	?	P.1
+hCoV-19/Wuhan/Hu-1/2019	EPI_ISL_402125	2019-12-31	China	Hubei	?	B
+hCoV-19/Wuhan/WH01/2019	EPI_ISL_406798	2019-12-26	China	Hubei	?	B
+nCoV/2022/hxr	?	2022-12-21	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/lhf	?	2022-12-18	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/lyf	?	2022-12-17	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/lzw	?	2022-12-22	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/sjf	?	2022-12-21	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/thl	?	2022-12-16	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/tqq	?	2022-12-19	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/wt	?	2022-12-15	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/wyt	?	2022-12-18	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/xjm	?	2022-12-14	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/yk	?	2022-12-15	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/ymd	?	2022-12-23	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/hgy	?	2022-12-22	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/hs	?	2022-12-21	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/hzt	?	2022-12-19	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/jq	?	2022-12-28	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/lhm	?	2022-12-16	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/lz	?	2022-12-25	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/pjw	?	2022-12-26	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/wp	?	2022-12-20	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/zrx	?	2022-12-19	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/zwl	?	2022-12-23	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/zx	?	2022-12-26	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/zx1	?	2022-12-20	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/wqx	?	2022-12-20	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/hxl	?	2022-12-25	China	Guangdong	Guangzhou	BA.5.2.49
+nCoV/2022/lj	?	2022-12-15	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/jhm	?	2022-12-23	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/qm	?	2022-12-21	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/cch	?	2022-12-19	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/chm	?	2022-12-16	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/cwy	?	2022-12-16	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/frt	?	2022-12-19	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/jjy	?	2022-12-16	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/jph	?	2022-12-21	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/lhx	?	2022-12-19	China	Guangdong	Guangzhou	BA.5.2
+nCoV/2022/lw	?	2022-12-22	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/pjw1	?	2022-12-23	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/pxf	?	2022-12-21	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/tj	?	2022-12-16	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/zpp	?	2022-12-28	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/myl	?	2022-12-16	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/xjl	?	2022-12-29	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/xjp	?	2022-12-25	China	Guangdong	Guangzhou	DY.3
+nCoV/2022/zjg	?	2022-12-19	China	Guangdong	Guangzhou	DY.3
+nCoV/2023/CCH	?	2023-05-19	China	Guangdong	Guangzhou	FL.2.3
+nCoV/2023/HJX	?	2023-05-19	China	Guangdong	Guangzhou	FL.2.3
+nCoV/2023/JJY	?	2023-05-18	China	Guangdong	Guangzhou	FL.2.3
+nCoV/2023/LXX	?	2023-05-17	China	Guangdong	Guangzhou	FL.2.3
+nCoV/2023/RQQ	?	2023-06-07	China	Guangdong	Guangzhou	FU.1
+nCoV/2023/YK	?	2023-05-07	China	Guangdong	Guangzhou	BN.1.2.6
+nCoV/2023/YMD	?	2023-05-22	China	Guangdong	Guangzhou	XBB.1.16
+nCoV/2023/ZLL	?	2023-05-14	China	Guangdong	Guangzhou	FL.2.3
+nCoV/2023/FRT	?	2023-05-08	China	Guangdong	Guangzhou	FL.2.3
+nCoV/2023/THL	?	2023-06-07	China	Guangdong	Guangzhou	FL.15
+nCoV/2023/HXR	?	2023-06-27	China	Guangdong	Guangzhou	XBB.1.16
+nCoV/2023/LHF	?	2023-07-05	China	Guangdong	Guangzhou	EG.5.1.1
+nCoV/2023/LCM	?	2023-04-18	China	Guangdong	Guangzhou	FL.2.3

@@ -1,0 +1,151 @@
+10月-30 11:45:05.481 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nextflow.nf --reference defaults/CVA10/CVA10_genome.fa --referencegb defaults/CVA10/CVA10_genome.gb --outdir /Users/LuJ/Yunpan/students/2022级/练惠敏/analysis/genome_results --sequences data/cva10-geno.fasta --metadata data/cva10-geno.tsv --root AY421767
+10月-30 11:45:05.553 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 21.10.6
+10月-30 11:45:05.586 [main] INFO  nextflow.cli.CmdRun - Launching `nextflow.nf` [lonely_aryabhata] - revision: 05b183e200
+10月-30 11:45:05.601 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/nextflow.config
+10月-30 11:45:05.602 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/nextflow.config
+10月-30 11:45:05.626 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+10月-30 11:45:06.464 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; plugins-dir=/Users/LuJ/.nextflow/plugins
+10月-30 11:45:06.467 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+10月-30 11:45:06.482 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+10月-30 11:45:06.483 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+10月-30 11:45:06.487 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+10月-30 11:45:06.497 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+10月-30 11:45:06.565 [main] DEBUG nextflow.Session - Session uuid: b0429c44-c12b-42ad-a41d-321ea3bc0c6f
+10月-30 11:45:06.565 [main] DEBUG nextflow.Session - Run name: lonely_aryabhata
+10月-30 11:45:06.565 [main] DEBUG nextflow.Session - Executor pool size: 16
+10月-30 11:45:06.627 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 21.10.6 build 5660
+  Created: 21-12-2021 16:55 UTC (22-12-2021 00:55 CDT)
+  System: Mac OS X 13.5.2
+  Runtime: Groovy 3.0.9 on Java HotSpot(TM) 64-Bit Server VM 17.0.7+8-LTS-224
+  Encoding: UTF-8 (UTF-8)
+  Process: 77720@LuJdeMacBook-Pro.local [172.20.10.3]
+  CPUs: 16 - Mem: 64 GB (1.5 GB) - Swap: 5 GB (1.4 GB)
+10月-30 11:45:06.648 [main] DEBUG nextflow.Session - Work-dir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work [Mac OS X]
+10月-30 11:45:06.649 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/bin
+10月-30 11:45:06.656 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+10月-30 11:45:06.667 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+10月-30 11:45:06.733 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+10月-30 11:45:06.822 [main] DEBUG nextflow.Session - Session start invoked
+10月-30 11:45:06.826 [main] DEBUG nextflow.trace.TraceFileObserver - Flow starting -- trace file: /Users/LuJ/Yunpan/students/2022级/练惠敏/analysis/genome_results/execution/trace.txt
+10月-30 11:45:07.410 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+10月-30 11:45:07.555 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.555 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.560 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+10月-30 11:45:07.568 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=50; memory=60 GB; capacity=16; pollInterval=100ms; dumpInterval=5m
+10月-30 11:45:07.590 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+10月-30 11:45:07.656 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.656 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.661 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.662 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.669 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.669 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.672 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.672 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.679 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.679 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.682 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.682 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.719 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.719 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.725 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+10月-30 11:45:07.725 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+10月-30 11:45:07.729 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: ancestral, traits, tree, refine, finalize, align, export, translate, colors
+10月-30 11:45:07.730 [main] DEBUG nextflow.Session - Ignite dataflow network (11)
+10月-30 11:45:07.735 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > align
+10月-30 11:45:07.736 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > tree
+10月-30 11:45:07.737 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > refine
+10月-30 11:45:07.738 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ancestral
+10月-30 11:45:07.738 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > translate
+10月-30 11:45:07.739 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > traits
+10月-30 11:45:07.739 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > colors
+10月-30 11:45:07.739 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > export
+10月-30 11:45:07.739 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > finalize
+10月-30 11:45:07.739 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+10月-30 11:45:07.740 [main] DEBUG nextflow.Session - Session await
+10月-30 11:45:07.866 [Task submitter] WARN  nextflow.executor.BashWrapperBuilder - Task runtime metrics are not reported when using macOS without a container engine
+10月-30 11:45:07.878 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:45:07.883 [Task submitter] INFO  nextflow.Session - [d3/4147b9] Submitted process > align (1)
+10月-30 11:45:07.906 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+10月-30 11:45:07.906 [Task submitter] INFO  nextflow.Session - [46/07f622] Submitted process > colors
+10月-30 11:45:15.806 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: colors; status: COMPLETED; exit: 1; error: -; workDir: /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/46/07f622f23584b1a784848dd0eb3a85]
+10月-30 11:45:15.833 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'colors'
+
+Caused by:
+  Process `colors` terminated with an error exit status (1)
+
+Command executed:
+
+  python3 /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/scripts/assign-colors.py           --ordering /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/color_ordering.tsv           --color-schemes /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/defaults/color_schemes.tsv           --output colors.tsv           --metadata data/cva10-geno.tsv
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  Traceback (most recent call last):
+    File "/Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/scripts/assign-colors.py", line 36, in <module>
+      metadata = pd.read_csv(args.metadata, delimiter='\t')
+    File "/Users/LuJ/miniconda3/nextstrain/lib/python3.8/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+      return func(*args, **kwargs)
+    File "/Users/LuJ/miniconda3/nextstrain/lib/python3.8/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+      return func(*args, **kwargs)
+    File "/Users/LuJ/miniconda3/nextstrain/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 950, in read_csv
+      return _read(filepath_or_buffer, kwds)
+    File "/Users/LuJ/miniconda3/nextstrain/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 605, in _read
+      parser = TextFileReader(filepath_or_buffer, **kwds)
+    File "/Users/LuJ/miniconda3/nextstrain/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1442, in __init__
+      self._engine = self._make_engine(f, self.engine)
+    File "/Users/LuJ/miniconda3/nextstrain/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1735, in _make_engine
+      self.handles = get_handle(
+    File "/Users/LuJ/miniconda3/nextstrain/lib/python3.8/site-packages/pandas/io/common.py", line 856, in get_handle
+      handle = open(
+  FileNotFoundError: [Errno 2] No such file or directory: 'data/cva10-geno.tsv'
+
+Work dir:
+  /Users/LuJ/Yunpan/NGS/pipline/IPHnano/Phy_nextstrain_nf/work/46/07f622f23584b1a784848dd0eb3a85
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+10月-30 11:45:15.846 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `colors` terminated with an error exit status (1)
+10月-30 11:45:15.859 [Task monitor] DEBUG nextflow.Session - The following nodes are still active:
+[process] tree
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: alignseq
+  port 1: (cntrl) -     ; channel: $
+
+[process] refine
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: rawtree
+  port 1: (queue) OPEN  ; channel: alignseq
+  port 2: (cntrl) -     ; channel: $
+
+[process] ancestral
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: refinetree
+  port 1: (queue) OPEN  ; channel: alignseq
+  port 2: (cntrl) -     ; channel: $
+
+[process] translate
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: refinetree
+  port 1: (queue) OPEN  ; channel: node_nt_data
+  port 2: (cntrl) -     ; channel: $
+
+[process] traits
+  status=ACTIVE
+  port 0: (queue) OPEN  ; channel: refinetree
+  port 1: (cntrl) -     ; channel: $
+
+10月-30 11:45:15.861 [main] DEBUG nextflow.Session - Session await > all process finished
+10月-30 11:45:15.861 [main] DEBUG nextflow.Session - Session await > all barriers passed
+10月-30 11:45:15.865 [main] WARN  n.processor.TaskPollingMonitor - Killing pending tasks (1)
+10月-30 11:45:15.874 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=1; succeedDuration=0ms; failedDuration=7.8s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+10月-30 11:45:15.875 [main] DEBUG nextflow.trace.TraceFileObserver - Flow completing -- flushing trace file
+10月-30 11:45:15.876 [main] DEBUG nextflow.trace.ReportObserver - Flow completing -- rendering html report
+10月-30 11:45:15.906 [main] DEBUG nextflow.trace.ReportObserver - Execution report summary data:
+  [{"cpuUsage":null,"process":"colors","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":{"mean":7816,"min":7816,"q1":7816,"q2":7816,"q3":7816,"max":7816,"minLabel":"colors","maxLabel":"colors","q1Label":"colors","q2Label":"colors","q3Label":"colors"},"writes":null},{"cpuUsage":null,"process":"align","mem":null,"memUsage":null,"timeUsage":null,"vmem":null,"reads":null,"cpu":null,"time":null,"writes":null}]
+10月-30 11:45:16.432 [main] DEBUG nextflow.trace.TimelineObserver - Flow completing -- rendering html timeline
+10月-30 11:45:18.010 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+10月-30 11:45:18.024 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
